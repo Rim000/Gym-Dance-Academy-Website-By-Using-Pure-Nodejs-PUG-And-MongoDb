@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/index.js")
+
+block style
+    style 
+        include  ../static/style.css
+block content 
+      
+     section#introSection
+
+        div Welcome to Rim's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+     section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/unnamed.png", alt="")
+                div.card-content
+                   p This is the best dance academy of Universe                     
+        div.card
+            h3 Dance The Way You Like
+            div.card-box
+                div.card-img
+                    img(src="/static/msiN3.png", alt="")
+                div.card-content
+                    p This is the best dance academy of Universe      
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/msi3.png", alt="")
+                div.card-content
+                    p This is the best dance academy of Universe      
+     section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsors 
+            img(src="/static/S1.png", alt="Sponsors image" Class="spimage")
+            img(src="/static/s2.png", alt="Sponsors image" Class="spimage")
+            img(src="/static/s3.png", alt="Sponsors image" Class="spimage")
+            img(src="/static/s4.jpg", alt="Sponsors image" Class="spimage")
+//-    hhhhhhhh 
